@@ -48,6 +48,10 @@ const CallButton = styled.button`
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22.04px;
+	transition: background-color .3s ease-out;
+	&:hover{
+		background-color: #33a7b8;
+	}
 `
 
 class Adress extends React.Component{

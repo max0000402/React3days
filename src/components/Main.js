@@ -33,6 +33,10 @@ const CallButton = styled.button`
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: bold;
+	transition: background-color .3s ease-out;
+	&:hover{
+		background-color: #cd823d;
+	}
 `
 class Main extends React.Component{
 	render(){

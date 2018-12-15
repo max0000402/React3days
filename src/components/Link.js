@@ -8,7 +8,7 @@ const StyledLink = styled.a`
 	line-height: 24px;
 	padding-right: 33px;
 	border-right: 1px dotted #fff;
-
+	transition: color .3s ease-out;
 	&:hover{
 		color: #8d8d8d;
 		text-decoration: none;
